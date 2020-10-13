@@ -1,15 +1,9 @@
 {
-  "main": "dist/app.js",
+  "main": "src/app.js",
   "private": true,
   "scripts": {
     "test": "eslint .",
     "start": "tabris serve -a"
-    {
-     "scripts": {
-     "build": "babel --compact false src -d dist"
-    }
-  ...
-}
   },
   "dependencies": {
     "tabris": "~3.6.1"
